@@ -5,16 +5,14 @@ Vagrant.configure("2") do |config|
 
   config.vm.box = "hashicorp/bionic64"
   config.vm.provider "virtualbox" do |vb|
-    vb.name = "sts-project-vm"
+    vb.name = "tomcat-vm"
   end
 
-  #config.vm.network "forwarded_port", guest: 9000, host: 9200
   config.vm.network :forwarded_port, guest: 8080, host: 4000, host_ip: "127.0.0.1"
   config.vm.network "private_network", ip: "192.168.33.111"
 
   config.vm.provision "shell", inline: <<-SHELL
     apt-get update
-    # apt-get install -y apache2
     # Install Ansible
     apt -y install software-properties-common
     apt-add-repository --yes --update ppa:ansible/ansible
