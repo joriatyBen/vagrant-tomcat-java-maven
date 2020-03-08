@@ -11,7 +11,7 @@
 vagrant plugin install vagrant-proxyconf
 
 **adjust nixos host file (in this case), add following entry:**
-192.168.33.111  sts-project-vm 
+192.168.33.111 tomcat-vm 
 
 **configuration.nix add:**
 environment.etc.hosts.mode = "0644";
