@@ -7,6 +7,8 @@
 **2. Clone project**
 3. vagrant up
 
+**3. Additional:**
+
 **additional needs**
 vagrant plugin install vagrant-proxyconf
 
