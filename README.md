@@ -1,3 +1,12 @@
+**Test VM on Nixos 19.09**
+
+1. Downloads:
+- virtualbox
+- vagrant
+
+2. Clone project
+3. vagrant up
+
 # additional needs
 vagrant plugin install vagrant-proxyconf
 
