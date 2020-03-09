@@ -1,5 +1,7 @@
 # Test VM on Nixos 19.09
 
+This is a basic shell and ansible provisioned vagrant vm
+
 **1. Downloads:**
 - virtualbox
 - vagrant
