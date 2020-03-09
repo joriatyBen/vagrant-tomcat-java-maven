@@ -7,9 +7,10 @@ This is a basic shell and ansible provisioned vagrant vm
 - vagrant
 
 **2. Clone project**
-3. vagrant up
 
-**3. Additional:**
+**3. Vagrant up**
+
+**4. Additional:**
 
 **additional needs**
 vagrant plugin install vagrant-proxyconf
